@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 220'>
+<rect width='520' height='220' fill='#f5ede0'/>
+<g font-family='Arial' font-size='14' fill='#2e4f3c'>
+<rect x='25' y='82' width='105' height='56' rx='10' fill='#fff' stroke='#cdb590'/><text x='38' y='115'>Raw Input</text>
+<rect x='155' y='82' width='105' height='56' rx='10' fill='#fff' stroke='#cdb590'/><text x='176' y='115'>Treatment</text>
+<rect x='285' y='82' width='105' height='56' rx='10' fill='#fff' stroke='#cdb590'/><text x='316' y='115'>Pulping</text>
+<rect x='415' y='82' width='80' height='56' rx='10' fill='#fff' stroke='#cdb590'/><text x='428' y='115'>Use</text>
+<path d='M130 110h23M260 110h23M390 110h23' stroke='#98774c' stroke-width='3'/>
+</g>
+</svg>
