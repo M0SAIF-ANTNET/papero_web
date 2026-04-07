@@ -1,359 +1,489 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Papero | لب ورق صناعي مستدام</title>
-    <meta
-      name="description"
-      content="بابيرو تقدم لب ورق صديق للبيئة من المخلفات الزراعية لتطبيقات الكرتون والكرافت والتغليف الصناعي."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content" data-i18n="skipLink">تجاوز إلى المحتوى</a>
 
-    <header class="site-header" id="top">
-      <div class="container header-inner">
-        <a href="#home" class="brand" aria-label="Papero Home">
-          <span class="logo-box" data-i18n="brand.logo">الشعار</span>
-          <span class="brand-text">Papero</span>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papero | لب ورق صناعي مستدام</title>
+  <meta name="description"
+    content="بابيرو تقدم لب ورق صديق للبيئة من المخلفات الزراعية لتطبيقات الكرتون والكرافت والتغليف الصناعي." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
-          <span class="sr-only" data-i18n="menu.toggle">فتح القائمة</span>
-          <span></span><span></span><span></span>
-        </button>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="skipLink">تجاوز إلى المحتوى</a>
 
-        <nav class="nav" id="primary-nav" aria-label="Main navigation">
-          <ul>
-            <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
-            <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
-            <li><a href="#products" data-i18n="nav.products">المنتجات</a></li>
-            <li><a href="#industry" data-i18n="nav.industry">القطاعات</a></li>
-            <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
-          </ul>
-        </nav>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+<a href="#home" class="brand">
+  <img src="assets/images/papero_logo.png" alt="Papero logo">
+</a>      
 
-        <div class="lang-switch" role="group" aria-label="Language switcher">
-          <button class="lang-btn active" data-lang="ar">العربية</button>
-          <button class="lang-btn" data-lang="en">English</button>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only" data-i18n="menu.toggle">فتح القائمة</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="#products" data-i18n="nav.products">المنتجات</a></li>
+          <li><a href="#industry" data-i18n="nav.industry">القطاعات</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="ar">العربية</button>
+        <button class="lang-btn" data-lang="en">English</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-content reveal">
+        <p class="hero-kicker" data-i18n="hero.kicker">Papero Industrial Materials</p>
+        <h1 data-i18n="hero.title">صناعة ذكية - تأثير صديق للبيئة</h1>
+        <p class="lead" data-i18n="hero.lead">
+          نوفر لك لب ورق صديق للبيئة بجودة صناعية مناسب لمصانع الكرتون والكرافت
+        </p>
+        <a href="#products" class="btn btn-secondary" data-i18n="hero.ctaSecondary">استكشف المنتجات</a>
+
+        <div class="hero-overlay-cards">
+          <article class="overlay-card">
+            <strong data-i18n="hero.stat1.t">جاهزية توريد صناعي</strong>
+            <p data-i18n="hero.stat1.d">حلول تلائم متطلبات الإنتاج المستمر.</p>
+          </article>
+          <article class="overlay-card">
+            <strong data-i18n="hero.stat2.t">مواد خام مستدامة</strong>
+            <p data-i18n="hero.stat2.d">اعتماد على المخلفات الزراعية والمواد النباتية.</p>
+          </article>
+          <article class="overlay-card">
+            <strong data-i18n="hero.stat3.t">تركيز B2B</strong>
+            <p data-i18n="hero.stat3.d">موجه لمصانع الكرتون والكرافت والتغليف.</p>
+          </article>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main id="main-content">
-      <section class="hero section" id="home">
-        <div class="hero-bg" aria-hidden="true"></div>
-        <div class="container hero-content reveal">
-          <p class="hero-kicker" data-i18n="hero.kicker">Papero Industrial Materials</p>
-          <h1 data-i18n="hero.title">صناعة ذكية - تأثير صديق للبيئة</h1>
-          <p class="lead" data-i18n="hero.lead">
-            نوفر لك لب ورق صديق للبيئة بجودة صناعية مناسب لمصانع الكرتون والكرافت
-          </p>
-          <a href="#products" class="btn btn-secondary" data-i18n="hero.ctaSecondary">استكشف المنتجات</a>
+<section class="section centered" id="about">
+  <div class="container">
+    <div class="section-head centered reveal">
+      <p class="eyebrow" data-i18n="about.eyebrow">من نحن</p>
+      <h2 data-i18n="about.title">بابيرو: حلول لب ورقي صناعية تبدأ من المخلفات الزراعية وتنتهي بقيمة حقيقية لقطاع التغليف</h2>
+      <p data-i18n="about.text">
+        في بابيرو نعيد التفكير في مصادر اللب الورقي من خلال تطوير بدائل صناعية قائمة على المخلفات الزراعية،
+        بهدف دعم مصانع الكرتون والكرافت والتغليف بحلول تجمع بين الكفاءة التشغيلية، والاستفادة من الموارد المحلية،
+        والتوجه نحو إنتاج أكثر مسؤولية واستدامة.
+      </p>
+    </div>
 
-          <div class="hero-overlay-cards">
-            <article class="overlay-card">
-              <strong data-i18n="hero.stat1.t">جاهزية توريد صناعي</strong>
-              <p data-i18n="hero.stat1.d">حلول تلائم متطلبات الإنتاج المستمر.</p>
-            </article>
-            <article class="overlay-card">
-              <strong data-i18n="hero.stat2.t">مواد خام مستدامة</strong>
-              <p data-i18n="hero.stat2.d">اعتماد على المخلفات الزراعية والمواد النباتية.</p>
-            </article>
-            <article class="overlay-card">
-              <strong data-i18n="hero.stat3.t">تركيز B2B</strong>
-              <p data-i18n="hero.stat3.d">موجه لمصانع الكرتون والكرافت والتغليف.</p>
-            </article>
-          </div>
+    <div class="about-visual-grid reveal">
+      <article class="info-card">
+        <h3 data-i18n="about.c1.t">ابتكار قابل للتطبيق</h3>
+        <p data-i18n="about.c1.d">
+          لا نقدّم فكرة نظرية، بل نطوّر حلًا عمليًا يمكن أن يتكامل مع احتياجات الصناعة ومتطلبات السوق.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3 data-i18n="about.c2.t">قيمة من موارد مهملة</h3>
+        <p data-i18n="about.c2.d">
+          نحول المخلفات الزراعية إلى مدخل إنتاج صناعي يساهم في خلق قيمة اقتصادية وتقليل الفاقد البيئي.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3 data-i18n="about.c3.t">تركيز على قطاع التغليف</h3>
+        <p data-i18n="about.c3.d">
+          نوجّه حلولنا لخدمة تطبيقات الكرتون والكرافت والتغليف بجودة مناسبة ورؤية واضحة للنمو والتوسع.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section class="process-section reveal" id="process">
+  <div class="container">
+    <div class="section-head centered">
+      <p class="eyebrow" data-i18n="process.eyebrow">رحلة الإنتاج</p>
+      <h2 data-i18n="process.title">من المواد الخام إلى المنتج النهائي</h2>
+      <p data-i18n="process.text">
+        نعتمد على مسار إنتاج واضح يبدأ من المواد الخام الزراعية وينتهي بلب ورقي
+        صناعي قابل للتطبيق في قطاع الكرتون والكرافت والتغليف.
+      </p>
+    </div>
+
+    <div class="process-timeline">
+      <article class="process-card">
+        <span class="step-number">01</span>
+        <div class="process-line"></div>
+        <h3 data-i18n="process.s1.t">المواد الخام</h3>
+        <p data-i18n="process.s1.d">
+          اختيار وتجهيز المخلفات الزراعية المناسبة لتكون نقطة البداية في سلسلة
+          الإنتاج.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <span class="step-number">02</span>
+        <div class="process-line"></div>
+        <h3 data-i18n="process.s2.t">المعالجة الأولية</h3>
+        <p data-i18n="process.s2.d">
+          تنظيف وفرز وتجهيز المواد الخام لتصبح مناسبة لمرحلة الاستخلاص والتحويل.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <span class="step-number">03</span>
+        <div class="process-line"></div>
+        <h3 data-i18n="process.s3.t">استخلاص الألياف</h3>
+        <p data-i18n="process.s3.d">
+          معالجة الألياف النباتية وتحويلها إلى قاعدة صناعية يمكن استخدامها في إنتاج اللب.
+        </p>
+      </article>
+
+      <article class="process-card">
+        <span class="step-number">04</span>
+        <div class="process-line"></div>
+        <h3 data-i18n="process.s4.t">إنتاج اللب الورقي</h3>
+        <p data-i18n="process.s4.d">
+          تطوير لب ورقي بجودة مناسبة للتطبيقات الصناعية مع التركيز على الأداء والاستمرارية.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    <section class="section alt" id="products">
+      <div class="container">
+        <div class="section-head centered reveal">
+          <p class="eyebrow" data-i18n="products.eyebrow">المنتجات</p>
+          <h2 data-i18n="products.title">حلول لب ورق متخصصة للتطبيقات الصناعية</h2>
         </div>
-      </section>
 
-      <section class="section centered" id="about">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="about.eyebrow">من نحن</p>
-            <h2 data-i18n="about.title">نحوّل المخلفات الزراعية إلى لب ورق صناعي قابل للتطبيق</h2>
-            <p data-i18n="about.text">بابيرو شركة تركز على تقديم بدائل لب ورقي تعتمد على المواد الخام المستدامة لخدمة مصانع الكرتون والكرافت والتغليف بموثوقية تشغيلية.</p>
-          </div>
-
-          <div class="about-visual-grid reveal">
-            <article class="info-card">
-              <h3 data-i18n="about.c1.t">رؤية تشغيلية</h3>
-              <p data-i18n="about.c1.d">نهج عملي يوازن بين الأداء الصناعي والمسؤولية البيئية.</p>
-            </article>
-            <article class="info-card">
-              <h3 data-i18n="about.c2.t">سلسلة قيمة</h3>
-              <p data-i18n="about.c2.d">من المواد الخام الزراعية إلى تطبيقات ورقية صناعية.</p>
-            </article>
-            <article class="info-card with-image">
-              <img src="assets/images/visual-process.svg" alt="مخطط بصري لتدفق الإنتاج الصناعي" />
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section alt" id="products">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="products.eyebrow">المنتجات</p>
-            <h2 data-i18n="products.title">حلول لب ورق متخصصة للتطبيقات الصناعية</h2>
-          </div>
-
-          <div class="product-grid">
-            <article class="product-card reveal">
-              <img src="assets/images/product-unbleached.svg" alt="لب ورق غير مبيض وتطبيقات كرتون" class="product-main" />
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <img src="assets/images/product-unbleached.svg" alt="لب ورق غير مبيض وتطبيقات كرتون" class="product-main" />
+            <center>
               <h3 data-i18n="products.p1.t">لب ورق غير مبيض</h3>
               <p data-i18n="products.p1.d">مناسب لمنتجات الكرافت والتغليف التي تحتاج متانة ألياف طبيعية.</p>
               <div class="thumb-row">
-                <img src="assets/images/thumb-pulp.svg" alt="صورة خامة اللب" />
-                <img src="assets/images/thumb-carton.svg" alt="صورة تطبيقات كرتون" />
-                <img src="assets/images/thumb-kraft.svg" alt="صورة تطبيقات كرافت" />
               </div>
               <button class="btn btn-primary" type="button" data-i18n="products.sampleBtn">طلب عينة</button>
-            </article>
+            </center>
+          </article>
 
-            <article class="product-card reveal">
-              <img src="assets/images/product-bleached.svg" alt="لب ورق مبيض وتطبيقات تغليف" class="product-main" />
+          <article class="product-card reveal">
+            <img src="assets/images/product-bleached.svg" alt="لب ورق مبيض وتطبيقات تغليف" class="product-main" />
+            <center>
               <h3 data-i18n="products.p2.t">لب ورق مبيض</h3>
               <p data-i18n="products.p2.d">تجهيزات لب بدرجة معالجة أعلى لتطبيقات تحتاج مظهرًا نهائيًا أكثر تجانسًا.</p>
               <div class="thumb-row">
-                <img src="assets/images/thumb-pulp.svg" alt="صورة خامة اللب" />
-                <img src="assets/images/thumb-packaging.svg" alt="صورة حلول تغليف" />
-                <img src="assets/images/thumb-kraft.svg" alt="صورة تطبيقات كرافت" />
               </div>
               <button class="btn btn-primary" type="button" data-i18n="products.sampleBtn">طلب عينة</button>
-            </article>
+            </center>
+          </article>
 
-            <article class="product-card reveal">
-              <img src="assets/images/product-specialized.svg" alt="لب متخصص للتطبيقات الصناعية" class="product-main" />
+          <article class="product-card reveal">
+            <img src="assets/images/product-specialized.svg" alt="لب متخصص للتطبيقات الصناعية" class="product-main" />
+            <center>
               <h3 data-i18n="products.p3.t">لب متخصص للتطبيقات الصناعية</h3>
               <p data-i18n="products.p3.d">تركيبات ألياف مخصصة لمنتجات التغليف والتطبيقات الورقية الفنية.</p>
               <div class="thumb-row">
-                <img src="assets/images/thumb-packaging.svg" alt="صورة تغليف صناعي" />
-                <img src="assets/images/thumb-carton.svg" alt="صورة منتجات كرتون" />
-                <img src="assets/images/thumb-kraft.svg" alt="صورة تطبيقات كرافت" />
               </div>
               <button class="btn btn-primary" type="button" data-i18n="products.sampleBtn">طلب عينة</button>
-            </article>
-          </div>
+            </center>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="industry">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="industry.eyebrow">القطاعات</p>
-            <h2 data-i18n="industry.title">حلول بصرية ومادية لقطاعات صناعية متعددة</h2>
-          </div>
-
-          <div class="industry-grid reveal">
-            <article class="industry-card"><img src="assets/images/industry-carton.svg" alt="تصنيع الكرتون" /><h3 data-i18n="industry.i1.t">تصنيع الكرتون</h3></article>
-            <article class="industry-card"><img src="assets/images/industry-kraft.svg" alt="إنتاج الكرافت" /><h3 data-i18n="industry.i2.t">إنتاج الكرافت</h3></article>
-            <article class="industry-card"><img src="assets/images/industry-packaging.svg" alt="حلول التغليف" /><h3 data-i18n="industry.i3.t">حلول التغليف</h3></article>
-            <article class="industry-card"><img src="assets/images/industry-converting.svg" alt="تحويل الورق" /><h3 data-i18n="industry.i4.t">تحويل الورق</h3></article>
-            <article class="industry-card"><img src="assets/images/industry-sustainable.svg" alt="تطبيقات صناعية مستدامة" /><h3 data-i18n="industry.i5.t">تطبيقات صناعية مستدامة</h3></article>
-          </div>
+    <section class="section" id="industry">
+      <div class="container">
+        <div class="section-head centered reveal">
+          <p class="eyebrow" data-i18n="industry.eyebrow">القطاعات</p>
+          <h2 data-i18n="industry.title">حلول بصرية ومادية لقطاعات صناعية متعددة</h2>
         </div>
-      </section>
 
-      <section class="section alt" id="insights-visual">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="viz.eyebrow">مؤشرات تشغيلية</p>
-            <h2 data-i18n="viz.title">مخططات خفيفة توضح نموذج التشغيل والاستدامة</h2>
-          </div>
-
-          <div class="viz-layout">
-            <article class="viz-card reveal">
-              <h3 data-i18n="viz.flow">مخطط تدفق الإنتاج</h3>
-              <div class="flow-steps">
-                <span data-i18n="viz.s1">مواد خام زراعية</span>
-                <span>→</span>
-                <span data-i18n="viz.s2">معالجة أولية</span>
-                <span>→</span>
-                <span data-i18n="viz.s3">استخلاص اللب</span>
-                <span>→</span>
-                <span data-i18n="viz.s4">تطبيقات صناعية</span>
-              </div>
-            </article>
-
-            <article class="viz-card reveal">
-              <h3 data-i18n="viz.circular">دائرة الاستدامة</h3>
-              <div class="circular-diagram" aria-hidden="true">
-                <div>1</div><div>2</div><div>3</div><div>4</div>
-              </div>
-              <p data-i18n="viz.circularText">استفادة من المخلفات الزراعية → تصنيع → استخدام صناعي → إعادة إدخال القيمة في الدورة الإنتاجية.</p>
-            </article>
-
-            <article class="viz-card reveal">
-              <h3 data-i18n="viz.quality">مؤشرات الجودة والجاهزية</h3>
-              <div class="indicator-list">
-                <p><span data-i18n="viz.q1.t">اتساق الدُفعات</span><strong>92%</strong></p>
-                <p><span data-i18n="viz.q2.t">جاهزية التوريد</span><strong>90%</strong></p>
-                <p><span data-i18n="viz.q3.t">مواءمة التطبيقات</span><strong>88%</strong></p>
-              </div>
-            </article>
-          </div>
-
-          <ol class="timeline reveal">
-            <li data-i18n="process.s1">تجميع المخلفات الزراعية</li>
-            <li data-i18n="process.s2">الفرز والمعالجة</li>
-            <li data-i18n="process.s3">استخلاص الألياف</li>
-            <li data-i18n="process.s4">معالجة اللب</li>
-            <li data-i18n="process.s5">اختبارات الجودة</li>
-            <li data-i18n="process.s6">التجهيز للتوريد</li>
-          </ol>
+        <div class="industry-grid reveal">
+          <article class="industry-card"><img src="assets/images/industry-carton.svg" alt="تصنيع الكرتون" />
+            <h3 data-i18n="industry.i1.t">تصنيع الكرتون</h3>
+          </article>
+          <article class="industry-card"><img src="assets/images/industry-kraft.svg" alt="إنتاج الكرافت" />
+            <h3 data-i18n="industry.i2.t">إنتاج الكرافت</h3>
+          </article>
+          <article class="industry-card"><img src="assets/images/industry-packaging.svg" alt="حلول التغليف" />
+            <h3 data-i18n="industry.i3.t">حلول التغليف</h3>
+          </article>
+          <article class="industry-card"><img src="assets/images/industry-converting.svg" alt="تحويل الورق" />
+            <h3 data-i18n="industry.i4.t">تحويل الورق</h3>
+          </article>
+          <article class="industry-card"><img src="assets/images/industry-sustainable.svg"
+              alt="تطبيقات صناعية مستدامة" />
+            <h3 data-i18n="industry.i5.t">تطبيقات صناعية مستدامة</h3>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" id="partners">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="partners.eyebrow">شركاؤنا</p>
-            <h2 data-i18n="partners.title">شبكة علاقات مع جهات صناعية وتوريدية</h2>
-          </div>
-          <div class="partner-grid reveal">
-            <div class="partner-card">P-01</div>
-            <div class="partner-card">P-02</div>
-            <div class="partner-card">P-03</div>
-            <div class="partner-card">P-04</div>
-            <div class="partner-card">P-05</div>
-            <div class="partner-card">P-06</div>
-          </div>
+
+<section class="section" id="partners">
+  <div class="container">
+    <div class="section-head centered reveal">
+      <p class="eyebrow" data-i18n="partners.eyebrow">شبكة التعاون</p>
+      <h2 data-i18n="partners.title">نستهدف التعاون مع جهات صناعية وتوريدية متنوعة</h2>
+    </div>
+    <div class="partner-grid reveal">
+      <div class="partner-card" data-i18n="partners.p1">مصانع الكرتون</div>
+      <div class="partner-card" data-i18n="partners.p2">منتجو الكرافت</div>
+      <div class="partner-card" data-i18n="partners.p3">شركات التغليف</div>
+      <div class="partner-card" data-i18n="partners.p4">شركاء التوريد</div>
+      <div class="partner-card" data-i18n="partners.p5">العملاء الصناعيون</div>
+      <div class="partner-card" data-i18n="partners.p6">شركاء التطوير</div>
+    </div>
+  </div>
+</section>
+
+    <section class="section alt" id="blog">
+      <div class="container">
+        <div class="section-head centered reveal">
+          <p class="eyebrow" data-i18n="blog.eyebrow">المدونة</p>
+          <h2 data-i18n="blog.title">رؤى حول المواد الخام المستدامة وتطبيقات الصناعة</h2>
         </div>
-      </section>
 
-      <section class="section alt" id="blog">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="blog.eyebrow">المدونة</p>
-            <h2 data-i18n="blog.title">رؤى حول المواد الخام المستدامة وتطبيقات الصناعة</h2>
-          </div>
-
-          <div class="blog-grid">
-            <article class="blog-post reveal">
-              <img class="blog-image" src="assets/images/blog-1.svg" alt="صورة مقال عن التغليف الصناعي" />
-              <div class="blog-content">
-                <p class="blog-date" data-i18n="blog.b1.date">10 مارس 2026</p>
-                <h3 class="blog-title" data-i18n="blog.b1.title">كيف تدعم المواد الخام المستدامة استقرار سلاسل التوريد</h3>
-                <p class="blog-excerpt" data-i18n="blog.b1.excerpt">نظرة عملية على دمج بدائل الألياف الزراعية ضمن خطوط إنتاج الورق والتغليف.</p>
-                <a class="blog-link" href="#" data-i18n="blog.readMore">اقرأ المزيد</a>
-              </div>
-            </article>
-
-            <article class="blog-post reveal">
-              <img class="blog-image" src="assets/images/blog-2.svg" alt="صورة مقال عن إنتاج الكرافت" />
-              <div class="blog-content">
-                <p class="blog-date" data-i18n="blog.b2.date">24 فبراير 2026</p>
-                <h3 class="blog-title" data-i18n="blog.b2.title">ملاءمة اللب النباتي لتطبيقات الكرافت والكرتون</h3>
-                <p class="blog-excerpt" data-i18n="blog.b2.excerpt">عوامل اختيار الخامة المناسبة للتغليف الصناعي وفق متطلبات الأداء والتكلفة.</p>
-                <a class="blog-link" href="#" data-i18n="blog.readMore">اقرأ المزيد</a>
-              </div>
-            </article>
-
-            <article class="blog-post reveal">
-              <img class="blog-image" src="assets/images/blog-3.svg" alt="صورة مقال عن الجاهزية الصناعية" />
-              <div class="blog-content">
-                <p class="blog-date" data-i18n="blog.b3.date">3 يناير 2026</p>
-                <h3 class="blog-title" data-i18n="blog.b3.title">من المادة الخام إلى المنتج النهائي: نقاط جودة أساسية</h3>
-                <p class="blog-excerpt" data-i18n="blog.b3.excerpt">إطار مبسط لفهم مراحل المعالجة التي تضمن اتساقًا أعلى للمنتجات الورقية.</p>
-                <a class="blog-link" href="#" data-i18n="blog.readMore">اقرأ المزيد</a>
-              </div>
-            </article>
-          </div>
-
-          <div class="blog-actions centered reveal">
-            <a href="#" class="btn btn-secondary" data-i18n="blog.viewAll">عرض جميع المقالات</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section centered" id="social">
-        <div class="container">
-          <div class="section-head centered reveal">
-            <p class="eyebrow" data-i18n="social.eyebrow">تابع بابيرو</p>
-            <h2 data-i18n="social.title">قنوات تواصلنا الرقمية</h2>
-          </div>
-          <div class="social-grid reveal">
-            <a href="#" class="social-card" aria-label="Facebook">Facebook</a>
-            <a href="#" class="social-card" aria-label="Instagram">Instagram</a>
-            <a href="#" class="social-card" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" class="social-card" aria-label="WhatsApp">WhatsApp</a>
-            <a href="mailto:info@papero.eg" class="social-card" aria-label="Email">Email</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section alt" id="contact">
-        <div class="container contact-layout">
-          <div class="contact-info reveal">
-            <p class="eyebrow" data-i18n="contact.eyebrow">تواصل معنا</p>
-            <h2 data-i18n="contact.title">جاهزون لطلبات التوريد والاستفسارات الصناعية</h2>
-            <div class="contact-list">
-              <p><strong data-i18n="contact.addressLabel">العنوان</strong><span data-i18n="contact.address">الزهراء مدينة نصر - برج المنار 2 - خلف معرض السيد المكاوي</span></p>
-              <p><strong data-i18n="contact.phoneLabel">الهاتف</strong><a href="tel:01222328997">01222328997</a></p>
-              <p><strong data-i18n="contact.emailLabel">البريد الإلكتروني</strong><a href="mailto:info@papero.eg">info@papero.eg</a></p>
+        <div class="blog-grid">
+          <article class="blog-post reveal">
+            <img class="blog-image" src="assets/images/blog-1.svg" alt="صورة مقال عن التغليف الصناعي" />
+            <div class="blog-content">
+              <p class="blog-date" data-i18n="blog.b1.date">10 مارس 2026</p>
+              <h3 class="blog-title" data-i18n="blog.b1.title">كيف تدعم المواد الخام المستدامة استقرار سلاسل التوريد
+              </h3>
+              <p class="blog-excerpt" data-i18n="blog.b1.excerpt">نظرة عملية على دمج بدائل الألياف الزراعية ضمن خطوط
+                إنتاج الورق والتغليف.</p>
+              <a class="blog-link" href="#" data-i18n="blog.readMore">اقرأ المزيد</a>
             </div>
-          </div>
+          </article>
 
-          <form class="contact-form reveal" novalidate>
-            <div class="field"><label for="company" data-i18n="contact.company">اسم الشركة</label><input id="company" name="company" required /></div>
-            <div class="field"><label for="person" data-i18n="contact.person">اسم المسؤول</label><input id="person" name="person" required /></div>
-            <div class="field"><label for="email" data-i18n="contact.email">البريد الإلكتروني</label><input id="email" name="email" type="email" required /></div>
-            <div class="field"><label for="phone" data-i18n="contact.phone">رقم الهاتف</label><input id="phone" name="phone" type="tel" required /></div>
-            <div class="field"><label for="activity" data-i18n="contact.activity">نوع النشاط</label><select id="activity" name="activity" required><option value="" data-i18n="contact.option0">اختر</option><option data-i18n="contact.option1">مصنع كرتون</option><option data-i18n="contact.option2">مصنع كرافت</option><option data-i18n="contact.option3">شركة تغليف</option></select></div>
-            <div class="field"><label for="product" data-i18n="contact.product">نوع المنتج المطلوب</label><select id="product" name="product" required><option value="" data-i18n="contact.option0">اختر</option><option data-i18n="contact.popt1">لب غير مبيض</option><option data-i18n="contact.popt2">لب مبيض</option><option data-i18n="contact.popt3">لب متخصص</option></select></div>
-            <div class="field full"><label for="message" data-i18n="contact.message">الرسالة</label><textarea id="message" name="message" rows="4" required></textarea></div>
-            <div class="field full"><button type="submit" class="btn btn-primary" data-i18n="contact.submit">إرسال الطلب</button></div>
-            <p class="form-note" data-i18n="contact.note">* هذه واجهة أمامية فقط وقابلة للربط لاحقًا مع Blogger أو API.</p>
-          </form>
-        </div>
-      </section>
-    </main>
+          <article class="blog-post reveal">
+            <img class="blog-image" src="assets/images/blog-2.svg" alt="صورة مقال عن إنتاج الكرافت" />
+            <div class="blog-content">
+              <p class="blog-date" data-i18n="blog.b2.date">24 فبراير 2026</p>
+              <h3 class="blog-title" data-i18n="blog.b2.title">ملاءمة اللب النباتي لتطبيقات الكرافت والكرتون</h3>
+              <p class="blog-excerpt" data-i18n="blog.b2.excerpt">عوامل اختيار الخامة المناسبة للتغليف الصناعي وفق
+                متطلبات الأداء والتكلفة.</p>
+              <a class="blog-link" href="#" data-i18n="blog.readMore">اقرأ المزيد</a>
+            </div>
+          </article>
 
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <a href="#top" class="brand">
-            <span class="logo-box" data-i18n="brand.logo">الشعار</span>
-            <span class="brand-text">Papero</span>
-          </a>
-          <p data-i18n="footer.tagline">حلول لب ورقي صناعية من مواد خام مستدامة.</p>
+          <article class="blog-post reveal">
+            <img class="blog-image" src="assets/images/blog-3.svg" alt="صورة مقال عن الجاهزية الصناعية" />
+            <div class="blog-content">
+              <p class="blog-date" data-i18n="blog.b3.date">3 يناير 2026</p>
+              <h3 class="blog-title" data-i18n="blog.b3.title">من المادة الخام إلى المنتج النهائي: نقاط جودة أساسية</h3>
+              <p class="blog-excerpt" data-i18n="blog.b3.excerpt">إطار مبسط لفهم مراحل المعالجة التي تضمن اتساقًا أعلى
+                للمنتجات الورقية.</p>
+              <a class="blog-link" href="#" data-i18n="blog.readMore">اقرأ المزيد</a>
+            </div>
+          </article>
         </div>
-        <div>
-          <h3 data-i18n="footer.quick">روابط سريعة</h3>
-          <ul class="footer-links">
-            <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
-            <li><a href="#products" data-i18n="nav.products">المنتجات</a></li>
-            <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 data-i18n="footer.contact">بيانات التواصل</h3>
-          <p data-i18n="contact.address">الزهراء مدينة نصر - برج المنار 2 - خلف معرض السيد المكاوي</p>
-          <p><a href="tel:01222328997">01222328997</a> • <a href="mailto:info@papero.eg">info@papero.eg</a></p>
-          <div class="socials">
-            <a href="#" aria-label="Facebook">f</a>
-            <a href="#" aria-label="Instagram">ig</a>
-            <a href="#" aria-label="LinkedIn">in</a>
-            <a href="#" aria-label="WhatsApp">wa</a>
-          </div>
+
+        <div class="blog-actions centered reveal">
+          <a href="#" class="btn btn-secondary" data-i18n="blog.viewAll">عرض جميع المقالات</a>
         </div>
       </div>
-      <div class="container footer-bottom">
-        <p data-i18n="footer.copy">© 2026 Papero. جميع الحقوق محفوظة.</p>
-      </div>
-    </footer>
+    </section>
+<section class="section centered social-section" id="social">
+  <div class="container">
 
-    <script src="assets/js/translations.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+    <div class="section-head centered reveal">
+      <p class="eyebrow" data-i18n="social.eyebrow">تابع بابيرو</p>
+      <h2 data-i18n="social.title">قنوات تواصلنا الرقمية</h2>
+      <p class="social-intro" data-i18n="social.intro">
+        تابع آخر أخبار بابيرو، المنتجات الجديدة، والتحديثات الصناعية عبر منصاتنا المختلفة.
+      </p>
+    </div>
+
+    <div class="social-grid reveal">
+
+      <a href="#" class="social-card" aria-label="Facebook">
+        <span class="social-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor"
+              d="M13 22v-8h3l1-4h-4V7c0-1.1.3-2 2-2h2V1.5C16.6 1.3 15.3 1 14 1c-3 0-5 1.8-5 5v3H6v4h3v8h4z"/>
+          </svg>
+        </span>
+        <div class="social-content">
+          <strong data-i18n="social.facebook.t">Facebook</strong>
+          <span data-i18n="social.facebook.d">أخبار الشركة والتحديثات</span>
+        </div>
+      </a>
+
+      <a href="#" class="social-card" aria-label="Instagram">
+        <span class="social-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor"
+              d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.8a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+          </svg>
+        </span>
+        <div class="social-content">
+          <strong data-i18n="social.instagram.t">Instagram</strong>
+          <span data-i18n="social.instagram.d">صور المنتجات والتطبيقات</span>
+        </div>
+      </a>
+
+      <a href="#" class="social-card" aria-label="LinkedIn">
+        <span class="social-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor"
+              d="M4.98 3.5C4.98 5 3.8 6.2 2.3 6.2S-.4 5 .8 3.5C.8 2 2 1 3.5 1s2.7 1.2 2.7 2.5zM.5 8h4v12h-4V8zm7.5 0h3.8v1.7h.1c.5-1 1.8-2 3.6-2 3.8 0 4.5 2.5 4.5 5.8V20h-4v-5.7c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3v5.9h-4V8z"/>
+          </svg>
+        </span>
+        <div class="social-content">
+          <strong data-i18n="social.linkedin.t">LinkedIn</strong>
+          <span data-i18n="social.linkedin.d">الحضور المهني والشراكات</span>
+        </div>
+      </a>
+
+      <a href="https://wa.me/201222328997" class="social-card" aria-label="WhatsApp">
+        <span class="social-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor"
+              d="M12 2a10 10 0 00-8.7 15l-1.3 4.7 4.8-1.2A10 10 0 1012 2zm5.5 14.3c-.2.6-1.1 1.2-1.7 1.3-.5.1-1.2.2-3.8-1-3.1-1.4-5.1-4.7-5.2-4.9-.1-.2-1.3-1.8-1.3-3.4s.8-2.3 1.1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.5.2.6.8 2.1.9 2.3.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4.9 1.5 2 2.4 1.4 1.2 2.5 1.6 2.9 1.8.4.2.6.1.8-.1l1-1.2c.2-.2.4-.3.7-.2.3.1 1.8.8 2.1.9.3.1.5.2.6.3.1.2.1 1.1-.1 1.7z"/>
+          </svg>
+        </span>
+        <div class="social-content">
+          <strong data-i18n="social.whatsapp.t">WhatsApp</strong>
+          <span data-i18n="social.whatsapp.d">تواصل سريع ومباشر</span>
+        </div>
+      </a>
+
+      <a href="mailto:info@papero.eg" class="social-card" aria-label="Email">
+        <span class="social-icon">
+          <svg viewBox="0 0 24 24" width="20" height="20">
+            <path fill="currentColor"
+              d="M2 4h20v16H2V4zm10 9L4 6h16l-8 7z"/>
+          </svg>
+        </span>
+        <div class="social-content">
+          <strong data-i18n="social.email.t">Email</strong>
+          <span data-i18n="social.email.d">info@papero.eg</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section alt" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-info reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">تواصل معنا</p>
+          <h2 data-i18n="contact.title">جاهزون لطلبات التوريد والاستفسارات الصناعية</h2>
+          <div class="contact-list">
+            <p><strong data-i18n="contact.addressLabel">العنوان</strong><span data-i18n="contact.address">الزهراء مدينة
+                نصر - برج المنار 2 - خلف معرض السيد المكاوي</span></p>
+            <p><strong data-i18n="contact.phoneLabel">الهاتف</strong><a href="tel:01222328997">01222328997</a></p>
+            <p><strong data-i18n="contact.emailLabel">البريد الإلكتروني</strong><a
+                href="mailto:info@papero.eg">info@papero.eg</a></p>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" novalidate>
+          <div class="field"><label for="company" data-i18n="contact.company">اسم الشركة</label><input id="company"
+              name="company" required /></div>
+          <div class="field"><label for="person" data-i18n="contact.person">اسم المسؤول</label><input id="person"
+              name="person" required /></div>
+          <div class="field"><label for="email" data-i18n="contact.email">البريد الإلكتروني</label><input id="email"
+              name="email" type="email" required /></div>
+          <div class="field"><label for="phone" data-i18n="contact.phone">رقم الهاتف</label><input id="phone"
+              name="phone" type="tel" required /></div>
+          <div class="field"><label for="activity" data-i18n="contact.activity">نوع النشاط</label><select id="activity"
+              name="activity" required>
+              <option value="" data-i18n="contact.option0">اختر</option>
+              <option data-i18n="contact.option1">مصنع كرتون</option>
+              <option data-i18n="contact.option2">مصنع كرافت</option>
+              <option data-i18n="contact.option3">شركة تغليف</option>
+            </select></div>
+          <div class="field"><label for="product" data-i18n="contact.product">نوع المنتج المطلوب</label><select
+              id="product" name="product" required>
+              <option value="" data-i18n="contact.option0">اختر</option>
+              <option data-i18n="contact.popt1">لب غير مبيض</option>
+              <option data-i18n="contact.popt2">لب مبيض</option>
+              <option data-i18n="contact.popt3">لب متخصص</option>
+            </select></div>
+          <div class="field full"><label for="message" data-i18n="contact.message">الرسالة</label><textarea id="message"
+              name="message" rows="4" required></textarea></div>
+          <div class="field full"><button type="submit" class="btn btn-primary" data-i18n="contact.submit">إرسال
+              الطلب</button></div>
+          <p class="form-note" data-i18n="contact.note">* هذه واجهة أمامية فقط وقابلة للربط لاحقًا مع Blogger أو API.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    
+    <div class="footer-brand-block">
+      <a href="#top" class="footer-brand" aria-label="Papero Home">
+        <img src="assets/images/papero_logo.png" alt="Papero logo" class="footer-logo">
+        <div class="footer-brand-text">
+          <strong>Papero</strong>
+          <span data-i18n="footer.tagline">حلول لب ورقي صناعية من مواد خام مستدامة.</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="footer-links-block">
+      <h3 data-i18n="footer.quick">روابط سريعة</h3>
+      <ul class="footer-links">
+        <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="#products" data-i18n="nav.products">المنتجات</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact-block">
+      <h3 data-i18n="footer.contact">بيانات التواصل</h3>
+      <p class="footer-address" data-i18n="contact.address">
+        الزهراء مدينة نصر - برج المنار 2 - خلف معرض السيد المكاوي
+      </p>
+
+      <p class="footer-contact-line">
+        <a href="tel:01222328997">01222328997</a>
+      </p>
+
+      <p class="footer-contact-line">
+        <a href="mailto:info@papero.eg">info@papero.eg</a>
+      </p>
+
+<div class="footer-socials">
+  <a href="#" aria-label="Facebook" class="footer-social">F</a>
+  <a href="#" aria-label="Instagram" class="footer-social">I</a>
+  <a href="#" aria-label="LinkedIn" class="footer-social">L</a>
+  <a href="https://wa.me/201222328997" aria-label="WhatsApp" class="footer-social">W</a>
+</div>
+
+  <div class="container footer-bottom">
+    <p data-i18n="footer.copy">© 2026 Papero. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
